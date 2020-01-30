@@ -56,6 +56,7 @@
             this.groupBox4.Size = new System.Drawing.Size(975, 627);
             this.groupBox4.TabIndex = 38;
             this.groupBox4.TabStop = false;
+            this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
             // 
             // groupBox3
             // 
@@ -202,7 +203,10 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(999, 664);
             this.Controls.Add(this.groupBox4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "frm_Categories";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_Categories";
             this.groupBox4.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);

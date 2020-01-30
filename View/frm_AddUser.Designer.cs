@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_AddUser));
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.btn_exit = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.txt_user_name = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -45,7 +46,6 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.btn_exit = new System.Windows.Forms.Button();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -61,6 +61,23 @@
             this.groupBox4.Size = new System.Drawing.Size(488, 76);
             this.groupBox4.TabIndex = 55;
             this.groupBox4.TabStop = false;
+            // 
+            // btn_exit
+            // 
+            this.btn_exit.FlatAppearance.BorderSize = 0;
+            this.btn_exit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_exit.Font = new System.Drawing.Font("Badiefont-Dima", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.btn_exit.ForeColor = System.Drawing.Color.White;
+            this.btn_exit.Image = ((System.Drawing.Image)(resources.GetObject("btn_exit.Image")));
+            this.btn_exit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_exit.Location = new System.Drawing.Point(30, 19);
+            this.btn_exit.Name = "btn_exit";
+            this.btn_exit.Size = new System.Drawing.Size(216, 51);
+            this.btn_exit.TabIndex = 9;
+            this.btn_exit.Text = "خروج";
+            this.btn_exit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_exit.UseVisualStyleBackColor = true;
+            this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
             // button1
             // 
@@ -223,23 +240,6 @@
             this.label8.TabIndex = 6;
             this.label8.Text = "اسم المستخدم";
             // 
-            // btn_exit
-            // 
-            this.btn_exit.FlatAppearance.BorderSize = 0;
-            this.btn_exit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_exit.Font = new System.Drawing.Font("Badiefont-Dima", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.btn_exit.ForeColor = System.Drawing.Color.White;
-            this.btn_exit.Image = ((System.Drawing.Image)(resources.GetObject("btn_exit.Image")));
-            this.btn_exit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_exit.Location = new System.Drawing.Point(30, 19);
-            this.btn_exit.Name = "btn_exit";
-            this.btn_exit.Size = new System.Drawing.Size(216, 51);
-            this.btn_exit.TabIndex = 9;
-            this.btn_exit.Text = "خروج";
-            this.btn_exit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_exit.UseVisualStyleBackColor = true;
-            this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
-            // 
             // frm_AddUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -250,7 +250,10 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MinimizeBox = false;
             this.Name = "frm_AddUser";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_AddUser";
             this.groupBox4.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);

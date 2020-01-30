@@ -38,5 +38,10 @@ namespace Management_of_a_coffee_shop.PAL
             frm_ViewCategories frm = new frm_ViewCategories();
             frm.Show();
         }
+
+        private void groupBox4_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
