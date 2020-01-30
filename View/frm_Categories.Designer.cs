@@ -151,9 +151,10 @@
             this.btn_sells.Name = "btn_sells";
             this.btn_sells.Size = new System.Drawing.Size(202, 68);
             this.btn_sells.TabIndex = 33;
-            this.btn_sells.Text = "إدارة الاصناف";
+            this.btn_sells.Text = "عرض الاصناف";
             this.btn_sells.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_sells.UseVisualStyleBackColor = false;
+            this.btn_sells.Click += new System.EventHandler(this.btn_sells_Click);
             // 
             // btn_reports
             // 

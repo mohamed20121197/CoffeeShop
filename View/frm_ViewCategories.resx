@@ -118,6 +118,29 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAQVSURBVGhD1ZjdT1tlHMcX4/Xif+CtlybeeeG8MZplxsSY0ALtOYW+AKGlmMFgc1gFhNEO51zM
+        okadJlQ2dMogXrjE6LYgM17oRmffTmvfYNloMhx0Y4af56l56jnwbdeWc2bPxafp+TynT77fPH3OOe2e
+        F70HDA2URgJKIwGlkYBSC94KLkmjZ0N/vx28XvBNh/ajc7QAyt0yPL1085MrOboQ36CZ0B0a/vLaVucH
+        vz+Dzt0tUO6G8ZkbVz9dWCmG55yYj1Lbu1fX9SgBZb2g8LOxdRqbCdHIN3my+H/+S+sSUNZDufD+b/+g
+        ibmbdGx+TZcSUNbKxFc3Ln+2sLwjfGA2vDVyPlUMzxmdzZMQWFzTqgSUtVAh/H3/hXC34F9MDZ1d1q0E
+        lNVSKXxgPmxn57hPRvfqWQLKaqgmPEfPElA+jFrCcyqW8NdfAspK1BOeo0cJKMuxm/CcYokJucS5FU1K
+        QInQIjxHyxJQbkfL8BytSkCpRI/wHC1KqA7Sve59f3Z3t3LOn5y+9l3wIl2av/Ifc5fp3OnZBz/5P/5Q
+        eW69LL0+6HrPN5X/4tRFmv7oUomp0z/QpG+q8Fvvka7S+V73awmv9wll5uIL+Z5/PGIT4+n+PloeOtqw
+        5N44QnLOQsLjeUVVIOnx7M8ODtBmMNjwFD4/QxFR+FVVgC0Pa4g+0IiErZaQqoChVuAMWAHy+R4L28RY
+        uu8g/O41CmwPRNvEDanX/bKqAEfq6Xku6XLOZdzddFtekUYiLgqr7Cq06vPtVWZWFWBkHY5nM50d9GDy
+        eMNQGHuHoi3mH7dnZewQjLhgLaCJ/i9WB/pJsgnDKOsOwYiYTRk0USUK42Ol9/cmjtFmwA/HmGfj/Lga
+        0h1OyjgcT6OsOwQjYmpaYMuGJiuHJFpL71e8Hlp78ygcY56N8+NqiFstd1FOBpQJwTKZHzwEJyuHqkAP
+        KzAEx5hn4/y4GiLNJgnlZECZdtj2Zbpq28h6FdiQvwmxZvP3KCcDSnZfkJftHpqwHHoVuH2oj1Jt4mGU
+        kwElQ162LJqwHHoVSLuclHM6n0IZGVAy5CvRovLq8TD0KiAJ1jsoHwdKRkK0nsgfHoCTIvQqIN/AIigf
+        B0qGZBdfyHZ1wkkRehRYHx2hWGvLHMrHgZLBNnLM2nofTYzQo8Ct/oOUarf1onwcKDmRZnMOTYzQo0DK
+        aadce/uTKBsHSk7U1PRLtRtZVUCjO7EkWPIolxIoOUnBciovP8qiybejfhYap83jATj277PQeOm4EvIG
+        Lv3yKgeUnITL9VK2xjuyVqyPDMsb2Pw1yqUESk7x3wqz6a7yyfJRke3s2ErY7aV/H8oBpZKk3f5q1NyU
+        jLY233pktJiXJZv1fZRnO1AaCSiNBJRGAkrjcGDPPyL134ZTkQ8BAAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="btn_exit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAACGVJREFUeF7l
@@ -250,28 +273,19 @@
         F2PBPx1M/usTwGqvHdwTiIn5C5P2SWzv+wk2AAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="Product_ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="Category_ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Product_Name.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="Category_Name.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Product_Type.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="Category_Type.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Product_price.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="Category_price.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Product_ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Product_Name.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Product_Type.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Product_price.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="Category_Weight.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
 </root>

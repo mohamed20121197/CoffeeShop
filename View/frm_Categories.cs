@@ -11,6 +11,7 @@ namespace Management_of_a_coffee_shop.PAL
 {
     public partial class frm_Categories : Form
     {
+
         public frm_Categories()
         {
             InitializeComponent();
@@ -29,6 +30,12 @@ namespace Management_of_a_coffee_shop.PAL
         private void btn_add_Click(object sender, EventArgs e)
         {
             frm_AddCategory frm = new frm_AddCategory();
+            frm.Show();
+        }
+
+        private void btn_sells_Click(object sender, EventArgs e)
+        {
+            frm_ViewCategories frm = new frm_ViewCategories();
             frm.Show();
         }
     }

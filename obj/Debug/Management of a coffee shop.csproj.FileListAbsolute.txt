@@ -11,3 +11,24 @@ C:\Users\Mohamed Osama\Desktop\Management of a coffee shop\Management of a coffe
 C:\Users\Mohamed Osama\Desktop\Management of a coffee shop\Management of a coffee shop\obj\Debug\Management_of_a_coffee_shop.PAL.frm_Products.resources
 C:\Users\Mohamed Osama\Desktop\Management of a coffee shop\Management of a coffee shop\obj\Debug\Management_of_a_coffee_shop.PAL.frm_Users.resources
 C:\Users\Mohamed Osama\Desktop\Management of a coffee shop\Management of a coffee shop\obj\Debug\Management_of_a_coffee_shop.PAL.frm_ViewProducts.resources
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\bin\Debug\Management of a coffee shop.exe
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\bin\Debug\Management of a coffee shop.pdb
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management of a coffee shop.csprojAssemblyReference.cache
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.View.frm_BuyCategory.resources
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.View.frm_SellingBill.resources
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.frm_ViewCategories.resources
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.PAL.frm_AddCategory.resources
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.PAL.frm_AddProduct.resources
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.PAL.frm_AddUser.resources
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.PAL.frm_Sells.resources
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.PAL.frm_Categories.resources
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.PAL.frm_Home.resources
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.PAL.frm_Login.resources
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.PAL.frm_Products.resources
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.PAL.frm_Users.resources
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.PAL.frm_ViewProducts.resources
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.Properties.Resources.resources
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.View.frm_ViewSellingBills.resources
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management of a coffee shop.csproj.GenerateResource.cache
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management of a coffee shop.exe
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management of a coffee shop.pdb

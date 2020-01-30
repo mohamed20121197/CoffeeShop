@@ -29,6 +29,7 @@ namespace Management_of_a_coffee_shop.PAL
         private void btn_add_Click(object sender, EventArgs e)
         {
             frm_AddProduct frm = new frm_AddProduct();
+            frm.Show();
         }
 
         private void btn_reports_Click(object sender, EventArgs e)

@@ -44,6 +44,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="View\frm_BuyCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frm_BuyCategory.Designer.cs">
+      <DependentUpon>frm_BuyCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frm_SellingBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frm_SellingBill.Designer.cs">
+      <DependentUpon>frm_SellingBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frm_ViewCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frm_ViewCategories.Designer.cs">
+      <DependentUpon>frm_ViewCategories.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\frm_AddCategory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +124,21 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\frm_ViewSellingBills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frm_ViewSellingBills.Designer.cs">
+      <DependentUpon>frm_ViewSellingBills.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\frm_BuyCategory.resx">
+      <DependentUpon>frm_BuyCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frm_SellingBill.resx">
+      <DependentUpon>frm_SellingBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frm_ViewCategories.resx">
+      <DependentUpon>frm_ViewCategories.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\frm_AddCategory.resx">
       <DependentUpon>frm_AddCategory.cs</DependentUpon>
     </EmbeddedResource>
@@ -145,6 +178,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\frm_ViewSellingBills.resx">
+      <DependentUpon>frm_ViewSellingBills.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
