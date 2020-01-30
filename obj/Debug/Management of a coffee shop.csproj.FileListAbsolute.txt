@@ -32,3 +32,5 @@ C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management
 C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management of a coffee shop.csproj.GenerateResource.cache
 C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management of a coffee shop.exe
 C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management of a coffee shop.pdb
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\bin\Debug\Mangement of a coffee shop.mdf
+C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\bin\Debug\Mangement of a coffee shop_log.ldf

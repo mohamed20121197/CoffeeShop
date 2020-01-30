@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Management_of_a_coffee_shop.View;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -49,7 +50,7 @@ namespace Management_of_a_coffee_shop.PAL
 
         private void btn_IncreaseCategory_Click(object sender, EventArgs e)
         {
-            View.frm_BuyCategory frm = new View.frm_BuyCategory();
+            frm_BuyCategory frm = new frm_BuyCategory();
             frm.Show();
         }
 
@@ -67,7 +68,7 @@ namespace Management_of_a_coffee_shop.PAL
 
         private void btn_SellingBill_Click(object sender, EventArgs e)
         {
-            View.frm_SellingBill frm = new View.frm_SellingBill();
+            frm_SellingBill frm = new frm_SellingBill();
             frm.Show();
         }
 
@@ -87,7 +88,7 @@ namespace Management_of_a_coffee_shop.PAL
 
         private void btn_ViewBills_Click(object sender, EventArgs e)
         {
-            View.frm_ViewSellingBills frm = new View.frm_ViewSellingBills();
+            frm_ViewSellingBills frm = new frm_ViewSellingBills();
             frm.Show();
 
         }

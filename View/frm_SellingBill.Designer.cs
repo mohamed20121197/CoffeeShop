@@ -33,32 +33,30 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.combo_category1 = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.btn_exit = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.combo_category1 = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox6.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Badiefont-Dima", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(994, 116);
+            this.label1.Location = new System.Drawing.Point(898, 116);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(109, 30);
             this.label1.TabIndex = 4;
@@ -97,120 +95,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // combo_category1
+            // groupBox3
             // 
-            this.combo_category1.FormattingEnabled = true;
-            this.combo_category1.Location = new System.Drawing.Point(837, 118);
-            this.combo_category1.Name = "combo_category1";
-            this.combo_category1.Size = new System.Drawing.Size(151, 21);
-            this.combo_category1.TabIndex = 118;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Font = new System.Drawing.Font("Badiefont-Dima", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.textBox2.Location = new System.Drawing.Point(513, 111);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox2.Size = new System.Drawing.Size(98, 40);
-            this.textBox2.TabIndex = 119;
-            // 
-            // label3
-            // 
-            this.label3.Font = new System.Drawing.Font("Badiefont-Dima", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(633, 116);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(191, 30);
-            this.label3.TabIndex = 120;
-            this.label3.Text = "سعر البيع للوحده";
-            // 
-            // label4
-            // 
-            this.label4.Font = new System.Drawing.Font("Badiefont-Dima", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(459, 116);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(48, 30);
-            this.label4.TabIndex = 121;
-            this.label4.Text = "جم";
-            // 
-            // label5
-            // 
-            this.label5.Font = new System.Drawing.Font("Badiefont-Dima", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(350, 116);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(84, 30);
-            this.label5.TabIndex = 123;
-            this.label5.Text = "العدد";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Enabled = false;
-            this.textBox3.Font = new System.Drawing.Font("Badiefont-Dima", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.textBox3.Location = new System.Drawing.Point(235, 111);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox3.Size = new System.Drawing.Size(98, 40);
-            this.textBox3.TabIndex = 122;
-            // 
-            // label6
-            // 
-            this.label6.Font = new System.Drawing.Font("Badiefont-Dima", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(130, 116);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(84, 30);
-            this.label6.TabIndex = 125;
-            this.label6.Text = "المبلغ";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Enabled = false;
-            this.textBox4.Font = new System.Drawing.Font("Badiefont-Dima", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.textBox4.Location = new System.Drawing.Point(26, 111);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox4.Size = new System.Drawing.Size(98, 40);
-            this.textBox4.TabIndex = 124;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.textBox4);
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.textBox3);
-            this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.textBox2);
-            this.groupBox2.Controls.Add(this.combo_category1);
-            this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Location = new System.Drawing.Point(19, 135);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1119, 231);
-            this.groupBox2.TabIndex = 126;
-            this.groupBox2.TabStop = false;
-            // 
-            // label22
-            // 
-            this.label22.Font = new System.Drawing.Font("Badiefont-Dima", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(880, 76);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(173, 40);
-            this.label22.TabIndex = 130;
-            this.label22.Text = "المبلغ النهائي";
-            // 
-            // textBox14
-            // 
-            this.textBox14.Enabled = false;
-            this.textBox14.Font = new System.Drawing.Font("Badiefont-Dima", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.textBox14.Location = new System.Drawing.Point(755, 76);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox14.Size = new System.Drawing.Size(102, 40);
-            this.textBox14.TabIndex = 129;
+            this.groupBox3.Controls.Add(this.groupBox6);
+            this.groupBox3.Controls.Add(this.label22);
+            this.groupBox3.Controls.Add(this.textBox14);
+            this.groupBox3.Location = new System.Drawing.Point(19, 399);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(1119, 194);
+            this.groupBox3.TabIndex = 132;
+            this.groupBox3.TabStop = false;
             // 
             // groupBox6
             // 
@@ -255,16 +149,98 @@
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // groupBox3
+            // label22
             // 
-            this.groupBox3.Controls.Add(this.groupBox6);
-            this.groupBox3.Controls.Add(this.label22);
-            this.groupBox3.Controls.Add(this.textBox14);
-            this.groupBox3.Location = new System.Drawing.Point(19, 399);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(1119, 194);
-            this.groupBox3.TabIndex = 132;
-            this.groupBox3.TabStop = false;
+            this.label22.Font = new System.Drawing.Font("Badiefont-Dima", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label22.ForeColor = System.Drawing.Color.White;
+            this.label22.Location = new System.Drawing.Point(880, 76);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(173, 40);
+            this.label22.TabIndex = 130;
+            this.label22.Text = "المبلغ النهائي";
+            // 
+            // textBox14
+            // 
+            this.textBox14.Enabled = false;
+            this.textBox14.Font = new System.Drawing.Font("Badiefont-Dima", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.textBox14.Location = new System.Drawing.Point(755, 76);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textBox14.Size = new System.Drawing.Size(102, 40);
+            this.textBox14.TabIndex = 129;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.textBox3);
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.label3);
+            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Controls.Add(this.combo_category1);
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Location = new System.Drawing.Point(19, 135);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(1119, 231);
+            this.groupBox2.TabIndex = 126;
+            this.groupBox2.TabStop = false;
+            // 
+            // label5
+            // 
+            this.label5.Font = new System.Drawing.Font("Badiefont-Dima", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(254, 116);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(84, 30);
+            this.label5.TabIndex = 123;
+            this.label5.Text = "العدد";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Enabled = false;
+            this.textBox3.Font = new System.Drawing.Font("Badiefont-Dima", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.textBox3.Location = new System.Drawing.Point(139, 111);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textBox3.Size = new System.Drawing.Size(98, 40);
+            this.textBox3.TabIndex = 122;
+            // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Badiefont-Dima", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(363, 116);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(48, 30);
+            this.label4.TabIndex = 121;
+            this.label4.Text = "جم";
+            // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Badiefont-Dima", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(537, 116);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(191, 30);
+            this.label3.TabIndex = 120;
+            this.label3.Text = "سعر البيع للوحده";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Enabled = false;
+            this.textBox2.Font = new System.Drawing.Font("Badiefont-Dima", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.textBox2.Location = new System.Drawing.Point(417, 111);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textBox2.Size = new System.Drawing.Size(98, 40);
+            this.textBox2.TabIndex = 119;
+            // 
+            // combo_category1
+            // 
+            this.combo_category1.FormattingEnabled = true;
+            this.combo_category1.Location = new System.Drawing.Point(741, 118);
+            this.combo_category1.Name = "combo_category1";
+            this.combo_category1.Size = new System.Drawing.Size(151, 21);
+            this.combo_category1.TabIndex = 118;
             // 
             // frm_SellingBill
             // 
@@ -280,11 +256,11 @@
             this.Text = "frm_SellingBill";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox6.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -300,8 +276,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.ComboBox combo_category1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.GroupBox groupBox2;
