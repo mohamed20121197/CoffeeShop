@@ -21,10 +21,8 @@ C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management
 C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.PAL.frm_AddProduct.resources
 C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.PAL.frm_AddUser.resources
 C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.PAL.frm_Sells.resources
-C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.PAL.frm_Categories.resources
 C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.PAL.frm_Home.resources
 C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.PAL.frm_Login.resources
-C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.PAL.frm_Products.resources
 C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.PAL.frm_Users.resources
 C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.PAL.frm_ViewProducts.resources
 C:\Users\Mohamed Osama\Desktop\CoffeeShop-master\CoffeeShop\obj\Debug\Management_of_a_coffee_shop.Properties.Resources.resources

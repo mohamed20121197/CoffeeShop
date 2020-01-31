@@ -7,41 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Management_of_a_coffee_shop.PAL
+namespace Management_of_a_coffee_shop
 {
-    public partial class frm_Categories : Form
+    public partial class frm_ViewCategories : Form
     {
-
-        public frm_Categories()
+        public frm_ViewCategories()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_exit_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void btn_add_Click(object sender, EventArgs e)
-        {
-            frm_AddCategory frm = new frm_AddCategory();
-            frm.Show();
-        }
-
-        private void btn_sells_Click(object sender, EventArgs e)
-        {
-            frm_ViewCategories frm = new frm_ViewCategories();
-            frm.Show();
-        }
-
-        private void groupBox4_Enter(object sender, EventArgs e)
-        {
-
         }
     }
 }

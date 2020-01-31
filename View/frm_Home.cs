@@ -95,15 +95,15 @@ namespace Management_of_a_coffee_shop.PAL
 
         private void Btn_Categories_Click(object sender, EventArgs e)
         {
-            frm_Categories frm = new frm_Categories();
+            frm_ViewCategories frm = new frm_ViewCategories();
             frm.Show();
         }
 
         private void btn_Products_Click(object sender, EventArgs e)
         {
-            frm_Products frm = new frm_Products();
-            frm.Show();
 
+            frm_ViewProducts frm = new frm_ViewProducts();
+            frm.Show();
         }
 
         private void btn_Sells_Click(object sender, EventArgs e)

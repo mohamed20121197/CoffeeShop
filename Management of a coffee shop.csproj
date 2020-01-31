@@ -59,6 +59,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data Acess Layer Interfaces\BillDao.cs" />
+    <Compile Include="Data Acess Layer Interfaces\CategoryDao.cs" />
+    <Compile Include="Data Acess Layer Interfaces\ProductDao.cs" />
+    <Compile Include="Data Acess Layer Interfaces\SellsDao.cs" />
+    <Compile Include="Data Acess Layer Interfaces\UserDao.cs" />
+    <Compile Include="Model\BillDto.cs" />
+    <Compile Include="Model\CategoryDto.cs" />
+    <Compile Include="Model\ProductDto.cs" />
+    <Compile Include="Model\SellsDto.cs" />
+    <Compile Include="Model\UserDto.cs" />
     <Compile Include="View\frm_BuyCategory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,11 +81,11 @@
     <Compile Include="View\frm_SellingBill.Designer.cs">
       <DependentUpon>frm_SellingBill.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\frm_ViewCategories.cs">
+    <Compile Include="View\frm_Categories.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\frm_ViewCategories.Designer.cs">
-      <DependentUpon>frm_ViewCategories.cs</DependentUpon>
+    <Compile Include="View\frm_Categories.Designer.cs">
+      <DependentUpon>frm_Categories.cs</DependentUpon>
     </Compile>
     <Compile Include="View\frm_AddCategory.cs">
       <SubType>Form</SubType>
@@ -101,12 +111,6 @@
     <Compile Include="View\frm_Sells.Designer.cs">
       <DependentUpon>frm_Sells.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\frm_Categories.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\frm_Categories.Designer.cs">
-      <DependentUpon>frm_Categories.cs</DependentUpon>
-    </Compile>
     <Compile Include="View\frm_Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,23 +123,17 @@
     <Compile Include="View\frm_Home.Designer.cs">
       <DependentUpon>frm_Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\frm_Products.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\frm_Products.Designer.cs">
-      <DependentUpon>frm_Products.cs</DependentUpon>
-    </Compile>
     <Compile Include="View\frm_Users.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\frm_Users.Designer.cs">
       <DependentUpon>frm_Users.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\frm_ViewProducts.cs">
+    <Compile Include="View\frm_Products.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\frm_ViewProducts.Designer.cs">
-      <DependentUpon>frm_ViewProducts.cs</DependentUpon>
+    <Compile Include="View\frm_Products.Designer.cs">
+      <DependentUpon>frm_Products.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -151,8 +149,8 @@
     <EmbeddedResource Include="View\frm_SellingBill.resx">
       <DependentUpon>frm_SellingBill.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\frm_ViewCategories.resx">
-      <DependentUpon>frm_ViewCategories.cs</DependentUpon>
+    <EmbeddedResource Include="View\frm_Categories.resx">
+      <DependentUpon>frm_Categories.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\frm_AddCategory.resx">
       <DependentUpon>frm_AddCategory.cs</DependentUpon>
@@ -166,23 +164,17 @@
     <EmbeddedResource Include="View\frm_Sells.resx">
       <DependentUpon>frm_Sells.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\frm_Categories.resx">
-      <DependentUpon>frm_Categories.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="View\frm_Home.resx">
       <DependentUpon>frm_Home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\frm_Login.resx">
       <DependentUpon>frm_Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\frm_Products.resx">
-      <DependentUpon>frm_Products.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="View\frm_Users.resx">
       <DependentUpon>frm_Users.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\frm_ViewProducts.resx">
-      <DependentUpon>frm_ViewProducts.cs</DependentUpon>
+    <EmbeddedResource Include="View\frm_Products.resx">
+      <DependentUpon>frm_Products.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -209,9 +201,7 @@
   <ItemGroup>
     <Folder Include="BusinessInterfaces\" />
     <Folder Include="Business\" />
-    <Folder Include="Data Acess Layer Interfaces\" />
     <Folder Include="Data Acess Layer\" />
-    <Folder Include="Model\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Mangement of a coffee shop.mdf">

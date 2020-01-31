@@ -34,15 +34,19 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txt_category_naame = new System.Windows.Forms.TextBox();
+            this.txt_category_name = new System.Windows.Forms.TextBox();
             this.txt_category_id = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.txt_buying_price = new System.Windows.Forms.TextBox();
-            this.txt_weight = new System.Windows.Forms.TextBox();
+            this.txt_category_packets_number = new System.Windows.Forms.TextBox();
+            this.txt_category_weight = new System.Windows.Forms.TextBox();
             this.btn_exit = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txt_category_items_number = new System.Windows.Forms.TextBox();
+            this.txt_category_price = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -51,13 +55,15 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(296, 19);
+            this.groupBox1.Location = new System.Drawing.Point(273, 19);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(196, 237);
+            this.groupBox1.Size = new System.Drawing.Size(219, 377);
             this.groupBox1.TabIndex = 57;
             this.groupBox1.TabStop = false;
             // 
@@ -66,18 +72,18 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Badiefont-Dima", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(83, 182);
+            this.label4.Location = new System.Drawing.Point(111, 182);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 29);
+            this.label4.Size = new System.Drawing.Size(93, 29);
             this.label4.TabIndex = 58;
-            this.label4.Text = "سعر الكيلو";
+            this.label4.Text = "عدد العلب";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Badiefont-Dima", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(77, 131);
+            this.label3.Location = new System.Drawing.Point(98, 131);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(106, 29);
             this.label3.TabIndex = 57;
@@ -88,7 +94,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Badiefont-Dima", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(82, 75);
+            this.label2.Location = new System.Drawing.Point(103, 75);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(101, 29);
             this.label2.TabIndex = 56;
@@ -99,18 +105,18 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Badiefont-Dima", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(86, 22);
+            this.label1.Location = new System.Drawing.Point(107, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(97, 29);
             this.label1.TabIndex = 55;
             this.label1.Text = "رقم الصنف";
             // 
-            // txt_category_naame
+            // txt_category_name
             // 
-            this.txt_category_naame.Location = new System.Drawing.Point(49, 82);
-            this.txt_category_naame.Name = "txt_category_naame";
-            this.txt_category_naame.Size = new System.Drawing.Size(188, 20);
-            this.txt_category_naame.TabIndex = 54;
+            this.txt_category_name.Location = new System.Drawing.Point(49, 82);
+            this.txt_category_name.Name = "txt_category_name";
+            this.txt_category_name.Size = new System.Drawing.Size(188, 20);
+            this.txt_category_name.TabIndex = 54;
             // 
             // txt_category_id
             // 
@@ -121,30 +127,32 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.txt_buying_price);
-            this.groupBox2.Controls.Add(this.txt_weight);
-            this.groupBox2.Controls.Add(this.txt_category_naame);
+            this.groupBox2.Controls.Add(this.txt_category_price);
+            this.groupBox2.Controls.Add(this.txt_category_items_number);
+            this.groupBox2.Controls.Add(this.txt_category_packets_number);
+            this.groupBox2.Controls.Add(this.txt_category_weight);
+            this.groupBox2.Controls.Add(this.txt_category_name);
             this.groupBox2.Controls.Add(this.txt_category_id);
             this.groupBox2.Location = new System.Drawing.Point(6, 19);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(284, 237);
+            this.groupBox2.Size = new System.Drawing.Size(261, 377);
             this.groupBox2.TabIndex = 58;
             this.groupBox2.TabStop = false;
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
-            // txt_buying_price
+            // txt_category_packets_number
             // 
-            this.txt_buying_price.Location = new System.Drawing.Point(48, 189);
-            this.txt_buying_price.Name = "txt_buying_price";
-            this.txt_buying_price.Size = new System.Drawing.Size(188, 20);
-            this.txt_buying_price.TabIndex = 56;
+            this.txt_category_packets_number.Location = new System.Drawing.Point(48, 189);
+            this.txt_category_packets_number.Name = "txt_category_packets_number";
+            this.txt_category_packets_number.Size = new System.Drawing.Size(188, 20);
+            this.txt_category_packets_number.TabIndex = 56;
             // 
-            // txt_weight
+            // txt_category_weight
             // 
-            this.txt_weight.Location = new System.Drawing.Point(48, 138);
-            this.txt_weight.Name = "txt_weight";
-            this.txt_weight.Size = new System.Drawing.Size(188, 20);
-            this.txt_weight.TabIndex = 55;
+            this.txt_category_weight.Location = new System.Drawing.Point(48, 138);
+            this.txt_category_weight.Name = "txt_category_weight";
+            this.txt_category_weight.Size = new System.Drawing.Size(188, 20);
+            this.txt_category_weight.TabIndex = 55;
             // 
             // btn_exit
             // 
@@ -186,7 +194,7 @@
             this.groupBox3.Controls.Add(this.groupBox4);
             this.groupBox3.Location = new System.Drawing.Point(12, 12);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(506, 350);
+            this.groupBox3.Size = new System.Drawing.Size(506, 493);
             this.groupBox3.TabIndex = 60;
             this.groupBox3.TabStop = false;
             this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
@@ -195,19 +203,55 @@
             // 
             this.groupBox4.Controls.Add(this.btn_exit);
             this.groupBox4.Controls.Add(this.button1);
-            this.groupBox4.Location = new System.Drawing.Point(6, 262);
+            this.groupBox4.Location = new System.Drawing.Point(6, 402);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(487, 76);
+            this.groupBox4.Size = new System.Drawing.Size(486, 76);
             this.groupBox4.TabIndex = 52;
             this.groupBox4.TabStop = false;
             this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Badiefont-Dima", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(27, 234);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(177, 29);
+            this.label5.TabIndex = 59;
+            this.label5.Text = "عدد الواحدات بالعلبة";
+            // 
+            // txt_category_items_number
+            // 
+            this.txt_category_items_number.Location = new System.Drawing.Point(48, 243);
+            this.txt_category_items_number.Name = "txt_category_items_number";
+            this.txt_category_items_number.Size = new System.Drawing.Size(188, 20);
+            this.txt_category_items_number.TabIndex = 57;
+            // 
+            // txt_category_price
+            // 
+            this.txt_category_price.Location = new System.Drawing.Point(48, 297);
+            this.txt_category_price.Name = "txt_category_price";
+            this.txt_category_price.Size = new System.Drawing.Size(188, 20);
+            this.txt_category_price.TabIndex = 58;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Badiefont-Dima", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(50, 290);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(154, 29);
+            this.label6.TabIndex = 60;
+            this.label6.Text = "سعر الكيلو/العلبة";
             // 
             // frm_AddCategory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(530, 377);
+            this.ClientSize = new System.Drawing.Size(530, 517);
             this.Controls.Add(this.groupBox3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
@@ -229,7 +273,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txt_category_naame;
+        private System.Windows.Forms.TextBox txt_category_name;
         private System.Windows.Forms.TextBox txt_category_id;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btn_exit;
@@ -238,7 +282,11 @@
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txt_buying_price;
-        private System.Windows.Forms.TextBox txt_weight;
+        private System.Windows.Forms.TextBox txt_category_packets_number;
+        private System.Windows.Forms.TextBox txt_category_weight;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txt_category_price;
+        private System.Windows.Forms.TextBox txt_category_items_number;
     }
 }
